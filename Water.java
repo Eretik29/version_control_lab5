@@ -196,5 +196,7 @@ public class Water implements ActionListener {
         }
     }
 
-
+	public toString(){
+		return "water";
+	}
 }
