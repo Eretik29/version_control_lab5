@@ -123,6 +123,11 @@ public class GameField {
         int index = row * width() + col;
         return cellList.get(row * width() + col);
     }
-
-
+	
+	private int gcd (int a, int b) {
+		if (b == 0)
+			return a;
+		else
+			return gcd (b, a % b);
+	}
 }
