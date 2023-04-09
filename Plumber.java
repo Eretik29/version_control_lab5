@@ -50,7 +50,7 @@ public class Plumber {
      */
     void createPipeline() {
 
-        if (gameField.height() == 1 && gameField.width() == 1) {
+        if (gameField.height() == gameField.width() && gameField.width() == 1) {
             throw new IllegalArgumentException("GameField is verysmall");
         }
 
