@@ -26,7 +26,7 @@ public class Water implements ActionListener {
     /**
      * таймаут
      */
-    private int timeout = 2000;
+    private int timeout = 3000;
 
     /**
      * Переменная, коазывающая остановлена ли вода или нет
@@ -195,7 +195,7 @@ public class Water implements ActionListener {
             FlowActionListener.waterStopped(new WaterStoppedActionEvent(this));
         }
     }
-
+	
 	public toString(){
 		return "water";
 	}
