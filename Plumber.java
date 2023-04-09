@@ -97,6 +97,9 @@ public class Plumber {
      * @return рандомное число
      */
     private int random(int n) {
+		if( n <= 0){
+			throw new IllegalAccessException("illegal argument");
+		}
         return new Random().nextInt(n);
     }
 
