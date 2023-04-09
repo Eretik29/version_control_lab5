@@ -140,20 +140,21 @@ public class Direction {
      */
     @Override
     public String toString() {
-        String res = "south";
+        String res = "South";
 
         if(this.equals(Direction.north())){
-            res = "north";
+            res = "North";
         }
 
         if (this.equals(Direction.east())){
-            res = "east";
+            res = "East";
         }
 
         if(this.equals(Direction.west())){
-            res = "west";
+            res = "West";
         }
 
         return res;
     }
+
 }
