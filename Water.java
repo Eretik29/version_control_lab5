@@ -86,7 +86,7 @@ public class Water implements ActionListener {
     /**
      * Установить новое значение для последней посещенной клетки
      *
-     * @param plumbingProduct
+     * @param plumbingProduct сантехническое средство
      */
     public void nextPlumbingProduct(@NotNull PlumbingProduct plumbingProduct) {
 
