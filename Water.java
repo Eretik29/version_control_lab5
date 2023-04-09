@@ -46,7 +46,7 @@ public class Water implements ActionListener {
      * @param timeout - таймаут
      */
     public Water(int timeout) {
-        if (timeout < 1)
+        if (timeout < 1 || timeout > 20000)
             throw new IllegalArgumentException("Illegal timeoutargument");
 
         this.timeout = timeout;
