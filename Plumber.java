@@ -23,7 +23,7 @@ public class Plumber {
     /**
      * Список всех труб
      */
-    List<PlumbingProduct> pipeList;
+    List<PlumbingProduct> pipeList = new ArrayList<>();
 
     /**
      * Конструктор
