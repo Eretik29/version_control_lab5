@@ -8,7 +8,7 @@ package plumber;
 public class Direction {
 
     /**
-     *  градусы
+     *  группа градусы
      */
     private int _angle = 90;
 
