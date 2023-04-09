@@ -8,6 +8,9 @@ public class GameField {
      * Высота игрового поля
      */
     private int height = 20;
+	
+	private int tmp = 1337;
+	
     /**
      * Ширина игрового поля
      */
